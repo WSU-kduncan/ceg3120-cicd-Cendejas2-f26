@@ -54,7 +54,7 @@ This is a link to [README.md](README.md)
 ```
 
 This is a link to [Google](https://google.com)  
-This is a link to [README.md](README.md)
+This is a link to [README.md](../README.md)
 
 ### Images
 
