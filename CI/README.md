@@ -111,7 +111,7 @@ To confirm that the CI pipeline executed successfully navigate to the "Actions" 
 As well navigate to your Docker Hub repo in the web browser where you can see that your latest tag shows it has just been updated.
 
 **Verify image**
-1. open terminal for me that will be a wsl environemt.
+1. open terminal for me that will be a wsl environment.
 2. pull the image using `docker pull loosegoose38/project6:latest`
 3. start a new container using our pulled image using the command `docker run -d -p 8080:80 loosegoose38/project6:latest`
 4. Since this is for a web app, navigate to the page on your web browser to ensure it up and running.
@@ -145,7 +145,7 @@ As well navigate to your Docker Hub repo in the web browser where you can see th
 Navigate to your Docker Hub repo and check the tags to confirm that the latest, major, and minor tags were generated and pushed.
 
 **Verify Image**
-1. open terminal for me that will be a wsl environemt.
+1. open terminal for me that will be a wsl environment.
 2. pull the image using `docker pull loosegoose38/project6:1.0`
 3. start a new container using our pulled image using the command `docker run -d -p 8080:80 loosegoose38/project6:1.0`
 4. Since this is for a web app, navigate to the page on your web browser to ensure it up and running.
@@ -186,4 +186,11 @@ Navigate to your Docker Hub repo and check the tags to confirm that the latest, 
 
 ![RollBack](screenshots/rollback.png)
 > This captures my container running on two different ports 8080 and 8081, the difference is one being my latest tagged image and the other being a rollback to previous one.
+
+
+## Commits, Sources, and AI
+- Gemini AI was used in the process of configuring the mermaid diagram for display within markdown.
+- https://github.com/docker/build-push-action - Reference for yml syntax
+- https://mermaid.js.org/ - reference for the Markdown diagram syntax used for my diagram.
+- Google for general questions.
 
