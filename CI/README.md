@@ -153,6 +153,8 @@ Navigate to your Docker Hub repo and check the tags to confirm that the latest, 
 [Docker Hub](https://hub.docker.com/repository/docker/loosegoose38/project6/general)
 
 
+## Testing and Proof
+
 ![docker ps](./screenshots/dockerPs.png)
 ![apache up and running our web content](./screenshots/browser.png)
 > The first screenshot shows our project 6 container containing our web-content is running. The second screenshot shows our html and css running on chrome, confirming that apache is serving our content.
